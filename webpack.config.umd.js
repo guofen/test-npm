@@ -63,7 +63,7 @@ module.exports = {
   externals: [nodeExternals()],
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: [distDir]
+      cleanOnceBeforeBuildPatterns: [path.join(process.cwd(), "dist")]
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css"
