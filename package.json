@@ -1,6 +1,6 @@
 {
   "name": "react-pubblish-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "把react组件发布到npm",
   "main": "index.js",
   "scripts": {
